@@ -23,19 +23,13 @@ Solana Accounts are similar to files in operating systems such as Linux
 Lamports because they can't handle decimals
 
 
-{
-
-key: number,
-
-lamports: number,
-
-data: UintSArray,
-
-fs_executable: boolean,
-
-owner: PublicKey,
-
-}
+> {
+> key: number,
+> lamports: number,
+> data: UintSArray,
+> fs_executable: boolean,
+> owner: PublicKey,
+> }
 
 
 Keypair - pair of keys: public key and private key
